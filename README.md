@@ -23,7 +23,7 @@ Fullstack-разработчик и системный инженер. Спец�
 - Создание легковесных высокоскоростных интерфейсов на чистом JavaScript (ES6+) без внешних фреймворков и без шага сборки (Zero-build architecture).
 - Интерактивная 2D и 3D графика на HTML5 Canvas: системы частиц с физикой ускорения, симуляции орбитальной механики Кеплера, физические анимации механических узлов (турбийон с частотой 4Hz).
 - Процедурный синтез звука через Web Audio API: программные осцилляторы, гармонические арпеджио, частотные фильтры и интерактивные звуковые ландшафты.
-- Компонентные адаптивные интерфейсы: CSS Grid, Flexbox, кастомные CSS-переменные, плавная типографика \clamp()\, стили Neo-Brutalist, Cyberpunk и Luxury Editorial.
+- Компонентные адаптивные интерфейсы: CSS Grid, Flexbox, кастомные CSS-переменные, плавная типографика clamp(), стили Neo-Brutalist, Cyberpunk и Luxury Editorial.
 - Строгий визуальный контроль: векторная графика SVG и качественная фото-интеграция без использования неформальных эмодзи.
 
 ### 3. Автоматизация, парсинг и боты
@@ -42,14 +42,14 @@ Fullstack-разработчик и системный инженер. Спец�
 
 | Проект | Описание | Технологии |
 | :--- | :--- | :--- |
-| **[interactive-web-showcase](https://github.com/von1336/interactive-web-showcase)** | Пакет из 5 интерактивных веб-сайтов: Canvas 2D/3D частицы, физический турбийон 4Hz, орбиты Кеплера, нео-бруталистский калькулятор и процедурный Web Audio | \HTML5 Canvas\, \Web Audio API\, \Vanilla JS\, \CSS3 Grid\ |
-| **[von-procurement-platform](https://github.com/von1336/von-procurement-platform)** | B2B платформа корпоративных закупок с REST API, интеграциями поставщиков, фоновыми задачами Celery, OAuth-авторизацией, кэшированием и деплоем в Docker | \Python\, \Django 5\, \DRF\, \Celery\, \Redis\, \Docker\ |
-| **[hermes-installer](https://github.com/von1336/hermes-installer)** | Десктопный лаунчер на WPF (C#) для управления сервисами в реальном времени, генерацией QR для мобильного подключения и Inno Setup инсталлятором | \C#\, \.NET\, \WPF\, \PowerShell\, \Inno Setup\ |
-| **[react-dashboard](https://github.com/von1336/react-dashboard)** | Адаптивная панель администратора с интерактивной аналитикой, динамическими графиками и темной темой | \React 18\, \Vite\, \Recharts\, \JavaScript\ |
-| **[ecommerce-api](https://github.com/von1336/ecommerce-api)** | REST API интернет-магазина с аутентификацией по JWT, управлением каталогом, заказами и корзиной | \Node.js\, \Express\, \SQLite\, \JWT\ |
-| **[telegram-bot](https://github.com/von1336/telegram-bot)** | Асинхронный Telegram-бот с модульной архитектурой, прогнозом погоды и калькулятором | \Python 3\, \iogram 3.x\, \syncio\ |
-| **[web-scraper](https://github.com/von1336/web-scraper)** | Универсальный парсер данных с поддержкой структурированного экспорта в CSV, JSON и Excel | \Python\, \BeautifulSoup4\, \Pandas\ |
-| **[portfolio-site](https://github.com/von1336/portfolio-site)** | Адаптивный сайт-портфолио в темной теме с терминальной hero-секцией на чистом JavaScript | \HTML5\, \CSS3\, \Vanilla JS\ |
+| **[interactive-web-showcase](https://github.com/von1336/interactive-web-showcase)** | Пакет из 5 интерактивных веб-сайтов: Canvas 2D/3D частицы, физический турбийон 4Hz, орбиты Кеплера, нео-бруталистский калькулятор и процедурный Web Audio | HTML5 Canvas, Web Audio API, Vanilla JS, CSS3 Grid |
+| **[von-procurement-platform](https://github.com/von1336/von-procurement-platform)** | B2B платформа корпоративных закупок с REST API, интеграциями поставщиков, фоновыми задачами Celery, OAuth-авторизацией, кэшированием и деплоем в Docker | Python, Django 5, DRF, Celery, Redis, Docker |
+| **[hermes-installer](https://github.com/von1336/hermes-installer)** | Десктопный лаунчер на WPF (C#) для управления сервисами в реальном времени, генерацией QR для мобильного подключения и Inno Setup инсталлятором | C#, .NET, WPF, PowerShell, Inno Setup |
+| **[react-dashboard](https://github.com/von1336/react-dashboard)** | Адаптивная панель администратора с интерактивной аналитикой, динамическими графиками и темной темой | React 18, Vite, Recharts, JavaScript |
+| **[ecommerce-api](https://github.com/von1336/ecommerce-api)** | REST API интернет-магазина с аутентификацией по JWT, управлением каталогом, заказами и корзиной | Node.js, Express, SQLite, JWT |
+| **[telegram-bot](https://github.com/von1336/telegram-bot)** | Асинхронный Telegram-бот с модульной архитектурой, прогнозом погоды и калькулятором | Python 3, \iogram 3.x\, \syncio\ |
+| **[web-scraper](https://github.com/von1336/web-scraper)** | Универсальный парсер данных с поддержкой структурированного экспорта в CSV, JSON и Excel | Python, BeautifulSoup4, Pandas |
+| **[portfolio-site](https://github.com/von1336/portfolio-site)** | Адаптивный сайт-портфолио в темной теме с терминальной hero-секцией на чистом JavaScript | HTML5, CSS3, Vanilla JS |
 
 ---
 
