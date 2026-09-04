@@ -1,18 +1,96 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="220" viewBox="0 0 850 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="850" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0e1526"/>
+      <stop offset="100%" stop-color="#070a10"/>
     </linearGradient>
+
+    <!-- Accent Radial Glows -->
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(730 70) rotate(90) scale(160 220)">
+      <stop offset="0%" stop-color="#00f0b5" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f0b5" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowViolet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(140 170) rotate(90) scale(130 200)">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Top Border Strip -->
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="850" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f0b5" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#6366f1" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#00f0b5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.45"/>
+      <circle cx="0" cy="0" r="1" fill="#334155" opacity="0.6"/>
+    </pattern>
   </defs>
-  <rect width="800" height="200" fill="url(#grad)" rx="12"/>
-  <text x="40" y="90" font-family="monospace" font-size="42" fill="#00ff88" font-weight="bold">&gt; von1336</text>
-  <text x="40" y="130" font-family="monospace" font-size="18" fill="#aaa">web dev • bots • parsers • automation</text>
-  <text x="40" y="165" font-family="monospace" font-size="14" fill="#666">$ freelance --available --location=russia</text>
-  <circle cx="740" cy="60" r="25" fill="#00ff88" opacity="0.15"/>
-  <circle cx="720" cy="140" r="40" fill="#00ff88" opacity="0.08"/>
-  <rect x="680" y="40" width="4" height="14" fill="#00ff88">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+
+  <!-- Base Canvas -->
+  <rect width="850" height="220" rx="14" fill="url(#bgGrad)"/>
+  <rect width="850" height="220" rx="14" fill="url(#grid)"/>
+
+  <!-- Radial Glows -->
+  <rect width="850" height="220" rx="14" fill="url(#glowCyan)"/>
+  <rect width="850" height="220" rx="14" fill="url(#glowViolet)"/>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="848" height="218" rx="13" stroke="#1e293b" stroke-width="1.5" fill="none"/>
+  <rect x="1" y="1" width="848" height="2.5" fill="url(#lineGrad)"/>
+
+  <!-- Terminal Window Decoration -->
+  <circle cx="38" cy="28" r="4.5" fill="#ef4444" opacity="0.85"/>
+  <circle cx="54" cy="28" r="4.5" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="70" cy="28" r="4.5" fill="#10b981" opacity="0.85"/>
+  <text x="92" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="11" fill="#64748b" font-weight="600" letter-spacing="1">SYSTEM // CORE_ONLINE</text>
+  <text x="790" y="32" font-family="'JetBrains Mono', monospace" font-size="10" fill="#475569" text-anchor="end" letter-spacing="1">LATENCY: OPTIMAL</text>
+
+  <!-- Left Identity Section -->
+  <g transform="translate(38, 72)">
+    <!-- Sub-tagline -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="11.5" fill="#00f0b5" font-weight="700" letter-spacing="2">// FULLSTACK ENGINEER &amp; SYSTEMS ARCHITECT</text>
+    
+    <!-- Big Title -->
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" fill="#ffffff" font-weight="900" letter-spacing="-0.5">von1336</text>
+    
+    <!-- Stack Line -->
+    <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" fill="#94a3b8" font-weight="500" letter-spacing="0.5">Python (FastAPI, Django) • React &amp; Modern JS • Node.js • C# .NET • Docker</text>
+
+    <!-- Status Badge -->
+    <g transform="translate(0, 96)">
+      <rect width="250" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="12" cy="12" r="4" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" fill="#e2e8f0" font-weight="600" letter-spacing="0.5">OPEN FOR SELECT CONTRACTS</text>
+    </g>
+  </g>
+
+  <!-- Right Decorative Geometry: Precision Telemetry Radar -->
+  <g transform="translate(720, 118)">
+    <circle cx="0" cy="0" r="58" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+    <circle cx="0" cy="0" r="40" stroke="#334155" stroke-width="1.2" fill="none"/>
+    <circle cx="0" cy="0" r="22" stroke="#00f0b5" stroke-width="1.4" stroke-opacity="0.6" fill="none"/>
+    <circle cx="0" cy="0" r="4.5" fill="#00f0b5"/>
+
+    <!-- Rotating Radar Sweep Line -->
+    <line x1="0" y1="0" x2="36" y2="-18" stroke="#00f0b5" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Crosshairs -->
+    <line x1="-66" y1="0" x2="66" y2="0" stroke="#1e293b" stroke-width="1"/>
+    <line x1="0" y1="-66" x2="0" y2="66" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Coordinate Callout -->
+    <rect x="-60" y="68" width="120" height="18" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+    <text x="0" y="80" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b" text-anchor="middle" letter-spacing="1">TELEMETRY: VERIFIED</text>
+  </g>
 </svg>
