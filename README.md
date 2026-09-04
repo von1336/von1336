@@ -42,13 +42,17 @@ Fullstack-разработчик и системный инженер. Спец�
 
 | Проект | Описание | Технологии |
 | :--- | :--- | :--- |
-| **[interactive-web-showcase](https://github.com/von1336/interactive-web-showcase)** | Пакет из 5 интерактивных веб-сайтов: Canvas 2D/3D частицы, физический турбийон 4Hz, орбиты Кеплера, нео-бруталистский калькулятор и процедурный Web Audio | HTML5 Canvas, Web Audio API, Vanilla JS, CSS3 Grid |
-| **[von-procurement-platform](https://github.com/von1336/von-procurement-platform)** | B2B платформа корпоративных закупок с REST API, интеграциями поставщиков, фоновыми задачами Celery, OAuth-авторизацией, кэшированием и деплоем в Docker | Python, Django 5, DRF, Celery, Redis, Docker |
-| **[hermes-installer](https://github.com/von1336/hermes-installer)** | Десктопный лаунчер на WPF (C#) для управления сервисами в реальном времени, генерацией QR для мобильного подключения и Inno Setup инсталлятором | C#, .NET, WPF, PowerShell, Inno Setup |
+| **[fastapi-kanban-board-realtime](https://github.com/von1336/fastapi-kanban-board-realtime)** | Real-time канбан-доска с мгновенной синхронизацией через WebSockets, шиной Redis Pub/Sub, миграциями Alembic и Docker Compose | FastAPI, WebSockets, Redis, PostgreSQL, Docker |
+| **[django-ecommerce-api-backend](https://github.com/von1336/django-ecommerce-api-backend)** | Энтерпрайз-бэкенд интернет-магазина: транзакции с блокировкой строк (select_for_update), Celery-уведомления и Docker | Django 5, DRF, Celery, Redis, PostgreSQL, Docker |
+| **[fastapi-rag-ai-assistant](https://github.com/von1336/fastapi-rag-ai-assistant)** | AI-ассистент с RAG-поиском по базе знаний, потоковыми ответами (SSE) в реальном времени и Token Bucket rate limiting | FastAPI, OpenAI API, SSE, RAG, Docker |
+| **[von-procurement-platform](https://github.com/von1336/von-procurement-platform)** | B2B платформа корпоративных закупок с REST API, интеграциями поставщиков, фоновыми задачами Celery и кэшированием в Redis | Python, Django 5, DRF, Celery, Redis, Docker |
+| **[aiohttp-celery-news-aggregator](https://github.com/von1336/aiohttp-celery-news-aggregator)** | Асинхронный агрегатор RSS-новостей с распределенным воркером Celery, брокером Redis и деплоем в Docker | aiohttp, Celery, Redis, PostgreSQL, Docker |
+| **[interactive-web-showcase](https://github.com/von1336/interactive-web-showcase)** | Пакет из 5 интерактивных веб-сайтов: Canvas 2D/3D частицы, физический турбийон 4Hz, орбиты Кеплера и процедурный Web Audio | HTML5 Canvas, Web Audio API, Vanilla JS, CSS3 Grid |
+| **[hermes-installer](https://github.com/von1336/hermes-installer)** | Десктопный лаунчер на WPF (C#) для управления сервисами в реальном времени, генерацией QR-кодов и Inno Setup установщиком | C#, .NET, WPF, PowerShell, Inno Setup |
 | **[react-dashboard](https://github.com/von1336/react-dashboard)** | Адаптивная панель администратора с интерактивной аналитикой, динамическими графиками и темной темой | React 18, Vite, Recharts, JavaScript |
-| **[ecommerce-api](https://github.com/von1336/ecommerce-api)** | REST API интернет-магазина с аутентификацией по JWT, управлением каталогом, заказами и корзиной | Node.js, Express, SQLite, JWT |
-| **[telegram-bot](https://github.com/von1336/telegram-bot)** | Асинхронный Telegram-бот с модульной архитектурой, прогнозом погоды и калькулятором | Python 3, aiogram 3.x, asyncio |
-| **[web-scraper](https://github.com/von1336/web-scraper)** | Универсальный парсер данных с поддержкой структурированного экспорта в CSV, JSON и Excel | Python, BeautifulSoup4, Pandas |
+| **[telegram-task-manager-bot](https://github.com/von1336/telegram-task-manager-bot)** | Асинхронный таск-менеджер в Telegram с напоминаниями по дедлайнам через JobQueue и инлайн-клавиатурами | python-telegram-bot v20, SQLAlchemy, PostgreSQL |
+| **[cbr-currency-tracker-bot](https://github.com/von1336/cbr-currency-tracker-bot)** | Бот отслеживания курсов валют ЦБ РФ с алертами волатильности, кэшированием и рассылкой подписчикам | python-telegram-bot v20, CBR API, SQLAlchemy |
+| **[hh-vacancy-parser](https://github.com/von1336/hh-vacancy-parser)** | Парсер вакансий с API hh.ru с нормализацией валют зарплат, сохранением в PostgreSQL и отчетами в Telegram | Python, requests, SQLAlchemy, Telegram |
 | **[portfolio-site](https://github.com/von1336/portfolio-site)** | Адаптивный сайт-портфолио в темной теме с терминальной hero-секцией на чистом JavaScript | HTML5, CSS3, Vanilla JS |
 
 ---
