@@ -1,0 +1,40 @@
+<svg width="420" height="190" viewBox="0 0 420 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="420" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0e1526"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f0b5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="190" rx="12" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="418" height="188" rx="11" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="1" y="1" width="418" height="2" fill="url(#cyanLine)"/>
+
+  <circle cx="24" cy="26" r="3.5" fill="#00f0b5"/>
+  <text x="36" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', monospace" font-size="12" fill="#00f0b5" font-weight="700" letter-spacing="1.5">// GITHUB OVERVIEW</text>
+  <text x="396" y="30" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="end">USER: VON1336</text>
+
+  <g transform="translate(24, 48)">
+    <rect width="176" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" fill="#94a3b8" letter-spacing="0.5">PUBLIC REPOSITORIES</text>
+    <text x="14" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#ffffff" font-weight="800">10</text>
+    <text x="48" y="44" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10b981" font-weight="600">ACTIVE</text>
+  </g>
+
+  <g transform="translate(216, 48)">
+    <rect width="180" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" fill="#94a3b8" letter-spacing="0.5">PRIMARY DOMAIN</text>
+    <text x="14" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" fill="#ffffff" font-weight="700">Fullstack &amp; Systems</text>
+  </g>
+
+  <g transform="translate(24, 110)">
+    <rect width="372" height="60" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" fill="#94a3b8" letter-spacing="0.5">ENGINEERING PROFILE</text>
+    <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#e2e8f0" font-weight="600">Python (FastAPI, Django) • React &amp; Vanilla JS</text>
+    <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#64748b">C# .NET / WPF • Celery • Docker • Web Audio &amp; Canvas</text>
+  </g>
+</svg>

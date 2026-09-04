@@ -83,8 +83,17 @@ Fullstack-разработчик и системный инженер. Спец�
 ## Статистика активности
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=von1336&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=von1336&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <a href="https://github.com/von1336?tab=repositories">
+    <img src="assets/github-stats.svg" alt="Статистика репозиториев von1336" width="410" />
+  </a>
+  <a href="https://github.com/von1336?tab=repositories">
+    <img src="assets/top-languages.svg" alt="Распределение языков программирования von1336" width="410" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/von1336">
+    <img src="https://streak-stats.demolab.com/?user=von1336&amp;theme=tokyonight&amp;hide_border=true" alt="Активность GitHub Streak" width="830" />
+  </a>
 </p>
 
 ---
