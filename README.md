@@ -27,7 +27,7 @@ Fullstack-разработчик и системный инженер. Спец�
 - Строгий визуальный контроль: векторная графика SVG и качественная фото-интеграция без использования неформальных эмодзи.
 
 ### 3. Автоматизация, парсинг и боты
-- Разработка асинхронных Telegram-ботов на \iogram 3.x\ с модульной структурой хэндлеров, FSM (конечными автоматами) и интеграцией внешних REST API.
+- Разработка асинхронных Telegram-ботов на iogram 3.x с модульной структурой хэндлеров, FSM (конечными автоматами) и интеграцией внешних REST API.
 - Создание отказоустойчивых веб-парсеров (BeautifulSoup4, HTTP-пулы сессий, защитные таймауты) для сбора и валидации структурированных данных.
 - Автоматизированная очистка, трансформация и экспорт данных в форматы CSV, JSON и Excel на базе Pandas.
 
@@ -47,7 +47,7 @@ Fullstack-разработчик и системный инженер. Спец�
 | **[hermes-installer](https://github.com/von1336/hermes-installer)** | Десктопный лаунчер на WPF (C#) для управления сервисами в реальном времени, генерацией QR для мобильного подключения и Inno Setup инсталлятором | C#, .NET, WPF, PowerShell, Inno Setup |
 | **[react-dashboard](https://github.com/von1336/react-dashboard)** | Адаптивная панель администратора с интерактивной аналитикой, динамическими графиками и темной темой | React 18, Vite, Recharts, JavaScript |
 | **[ecommerce-api](https://github.com/von1336/ecommerce-api)** | REST API интернет-магазина с аутентификацией по JWT, управлением каталогом, заказами и корзиной | Node.js, Express, SQLite, JWT |
-| **[telegram-bot](https://github.com/von1336/telegram-bot)** | Асинхронный Telegram-бот с модульной архитектурой, прогнозом погоды и калькулятором | Python 3, \iogram 3.x\, \syncio\ |
+| **[telegram-bot](https://github.com/von1336/telegram-bot)** | Асинхронный Telegram-бот с модульной архитектурой, прогнозом погоды и калькулятором | Python 3, iogram 3.x, syncio |
 | **[web-scraper](https://github.com/von1336/web-scraper)** | Универсальный парсер данных с поддержкой структурированного экспорта в CSV, JSON и Excel | Python, BeautifulSoup4, Pandas |
 | **[portfolio-site](https://github.com/von1336/portfolio-site)** | Адаптивный сайт-портфолио в темной теме с терминальной hero-секцией на чистом JavaScript | HTML5, CSS3, Vanilla JS |
 
